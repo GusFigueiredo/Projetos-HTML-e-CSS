@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header{
+
+    padding: 10px;
+    margin-bottom: 0.4px;
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    
+}
+
+.navHeader{
+    display: flex;
+    justify-content:space-around;
+}
+
+.aHeader{
+    text-decoration: none;
+    color: white;
+    font-size: 16.5px;
+}
+
+.BotaoHeader{
+    padding: -100px;
+    margin-top: 40px;
+    width: 140px;
+    height: 30px;
+    background-color: transparent;
+    border: 0px;
+}
+
+.aHeader:hover{
+    color:orange
+}
+
+.BotaoHeader:hover{
+    transform: scale(1.1);
+}
+
+/*Main*/
+
+h1{
+    font-family:"Roboto Slab";
+}
+
+main{
+    height: 100%;
+    padding: 140px;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputDiv{
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+input{
+    padding: 10px;
+    width: 200px;
+    border-style: double;
+    border-radius: 10px;
+}
+
+.BotaoLogin{
+    color: white;
+    margin:10px;
+    padding: 12px;
+    width: 225px;
+    border-style: double;
+    border-radius: 15px;
+    background-color: rgb(32, 32, 32);
+}
+
+.BotaoLogin:hover{
+    transform: scale(1.01);
+    color:orange
+}
+
+h1{
+    padding-bottom: 10px;
+}
+
+/*Configuração Footer*/
+footer{
+    font-family:"Roboto Slab";
+    padding: 10px;
+    background-color: rgb(32, 32, 32);
+    display:flex;
+    justify-content:space-around;
+}
+
+.divFooter{
+    padding: 4px;
+    margin-top: 10px;
+    color: white;
+}
+
+/*Div Contato*/
+.aContato{
+    font-size: 14px;
+    text-decoration: none;
+    color: white
+}
+.aContato:hover{
+    color: orange;
+}
+
+
+.pContato:hover{
+    transform: scale(1.05);
+}
+
+.Contato{
+    
+    padding: 3px;
+    display: flex;
+}
+
+.imgContato{
+    margin-top: 4px;
+    padding-left: 10px;
+}
+
+
+/*Div Nao Licenciado*/
+.divFooterNao{
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color:white;
+    padding-left: 170px;
+}
+
+.imgDivNao{
+    padding-left: 80px;
+}
+
+
+/*Parte Patrocinio*/
+
+.divFooterPatrocinio{
+    color: white;
+    padding-top: 15px;
+}
+
+.h2Patrocinios{
+    padding-left: 80px;
+}
+
+.imgPatrocinio{
+    padding: 10px
+}
+
+
+
